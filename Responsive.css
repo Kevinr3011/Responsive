@@ -1,0 +1,49 @@
+.contenedor {
+    display: flex;
+    background-color: cadetblue;
+    padding: 0.60rem;
+    margin: none;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+.element {
+    background-color: greenyellow;
+    padding: 1rem;
+    border: 1px solid black;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    
+}
+
+/*.elem4 {
+    border: 1px solid black;
+    flex-grow: 5px;
+    width: 8rem;
+    height: 6rem;
+    padding: 1rem;
+    text-align: center;
+    line-height: 6rem;
+    background-color: lightblue;
+    
+}*/
+
+@media print and(min-width: 640px) {
+    body{
+        flex-direction: row;
+        color: aliceblue;
+        justify-content: end;
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+
+
+
